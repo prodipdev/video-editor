@@ -8,8 +8,8 @@ const Topbar = () => {
       <Link href="/">
         <HiMiniSquare2Stack className="text-blue-300 text-3xl" />
       </Link>
-      <div className="flex items-center gap-10 font-semibold">
-        <div className="flex items-center gap-1">
+      <div className="flex items-center gap-12 font-semibold">
+        <div className="flex items-center gap-2">
           <MdPeopleAlt className="text-2xl" /> Share
         </div>
         <button className="px-2 rounded-full bg-blue-200 text-blue-600">

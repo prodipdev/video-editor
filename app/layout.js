@@ -1,5 +1,5 @@
 import "./globals.css";
-import Topbar from "@/components/shared/Topbar";
+import Topbar from "@/components/Topbar";
 
 export const metadata = {
   title: "Video Editing AI",
