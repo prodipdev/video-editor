@@ -1,7 +1,5 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import Topbar from "@/components/shared/Topbar";
 
 export const metadata = {
   title: "Video Editing AI",
@@ -11,7 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="max-w-7xl mx-auto bg-[#F8F6F8]">
+        <Topbar />
+        {children}
+      </body>
     </html>
   );
 }
